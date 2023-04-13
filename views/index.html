@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Main</title>
+
+   
+    <link rel="stylesheet" href="/signcss/main.css" />
+  </head>
+
+  <body>
+  
+  
+
+<div class ="hero">
+  <div class = "form-box">
+    <div class ="button-box">
+ <div id="btn"></div>
+      <button type="button" class ="toggle-btn" id ="logbutt">Log In</button>
+      <button type="button" class ="toggle-btn" id ="regisbutt">Register</button>
+
+    </div>
+
+<form id ="login" class ="input-grp" action="/login" method="post">
+  <input type ="text" class ="input-field" placeholder="User Name" name='unameL' required>
+  <input type ="password" class ="input-field" id ="pass" placeholder="Password" name='passL' required>
+
+  <button type ="submit" class="submit-btn" >Log In</button>
+
+</form>
+
+<div id ="gg1">
+<form id ="register"  class ="input-grp" action="/signup" method ="post">
+  <input type ="text" class ="input-field" placeholder="Name"  name='nameR' required>
+  <input type ="email" class ="input-field" placeholder="E-mail"  name='emailR' required>
+  <input type ="text" class ="input-field" placeholder="Phone No"  name='phoneR' required>
+  <input type ="text" class ="input-field" placeholder="Address"  name='addressR' required>
+  <input type ="text" class ="input-field" placeholder="User Name"  name='unameR' required>
+  <input type ="password" class ="input-field" placeholder="Password" name='passR' required>
+  <button type ="submit"  id ="submit2">Register</button>
+ 
+</form>
+</div>
+
+  </div>
+</div>
+<script>
+  var x = document.getElementById("login");
+var y =document.getElementById("register");
+var z =document.getElementById("btn");
+
+var log = document.getElementById("logbutt");
+var reg = document.getElementById("regisbutt")
+
+
+log.addEventListener("click",function (){
+
+    x.style.left = "10px";
+    y.style.left = "400px";
+    z.style.left= "0px";
+    
+    })
+    
+    
+
+reg.addEventListener("click",function (){
+
+x.style.left = "-400px";
+y.style.left = "10px";
+z.style.left= "110px";
+
+})
+
+
+</script>
+
+
+    
+  </body>
+</html>

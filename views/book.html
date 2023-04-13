@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Booking</title>
+    <link href="/mainpagecss/style.css" rel="stylesheet" type="text/css"  media="all" />
+   
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
+  </head>
+
+  <body>
+    <div class="header">
+        <div class="wrap">
+            <div class="header-top">
+                <div class="logo">
+                    <a href="/mainpage"><img src="images/logo2.png" title="logo" /></a>
+                </div>
+                <div class="contact-info">
+                    <p class="phone">Call us : <a href="#">98118184764</a></p>
+                       </div>
+                <div class="clear"> </div>
+            </div>
+        </div>
+        <div class="header-top-nav">
+            <div class="wrap">
+                <ul>
+                    <li><a href="/mainpage">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/services">Services</a></li>
+                    <li><a href="/gallery">Gallery</a></li>
+                    <li class="active"><a href="/book">Book Now</a></li>
+                    <div class="clear"> </div>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!---End-header--->
+   		
+        <div class="col span_2_of_3">
+          <div class="contact-form">
+              <h3>Booking Details</h3>
+             
+              <form action="/booking" method="post">
+   
+                <div class="form-group">
+                  <h2 class="heading">Details</h2>
+                  <div class="grid">
+                
+                    <div class="controls">
+                      <input type="date" id="arrive" class="floatLabel" name="arrive" value=">
+                      <label for="arrive" class="label-date"><i class="fa fa-calendar"></i>&nbsp;&nbsp;Arrive</label>
+                    </div>      
+                    <br>
+                
+                    
+                      <input type="date" id="depart" class="floatLabel" name="depart" value="<?php echo date('Y-m-d'); ?>" />
+                      <label for="depart" class="label-date"><i class="fa fa-calendar"></i>&nbsp;&nbsp;Depart</label>
+                    <br>   <br>
+               
+                    <br>  
+                    <div class="people">
+                      <select class="floatLabel" name="adult">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2" selected>2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                      </select>
+                      <label for="fruit"><i class="fa fa-male"></i>&nbsp;&nbsp;Adult</label>
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      <select class="floatLabel" name="child">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2" selected>2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                      </select>
+                      <label for="fruit"><i class="fa fa-male"></i>&nbsp;&nbsp;Children</label>
+                    </div>      
+                
+                    <br>   <br>
+               
+                  <div class="controls">
+                   
+                    <select class="floatLabel" name="room">
+                     
+                      <option value="economy" selected>Economy</option>
+                      <option value="luxury" selected>Luxury</option>
+                      <option value="executive">Executive</option>
+                    </select>
+                    <label for="fruit">Room Type</label>
+                   </div>     
+                  </div>
+              
+                    <br>   <br>
+               
+               
+                  <div class="controls">
+                    <input type="checkbox" id="dinner" name="dinner" value="dinner">
+              <label for="vehicle1"> Dinner</label><br>
+                  
+                  </div>
+                    
+                   </div>
+                    <div class="grid">
+                      <p class="info-text">Please describe your needs e.g. Extra beds, children's cots</p>
+                      <br>
+                      <div class="controls">
+                        <textarea name="comments" class="floatLabel" id="comments"></textarea>
+                        <label for="comments">Comments</label>
+                        </div>
+                          <button type="submit" value="Submit" class="col-1-4">Submit</button>
+                 
+                </div> 
+              </form>
+            
+            </div>
+          </div>				
+      </div>
+    </div>
+            <!-------start-contatct------>
+        </div>
+        <div class="clear"> </div>
+        <div class="boxs">
+        <div class="wrap">
+        <div class="box">
+        
+        </div>
+        <div class="box center-box">
+            <ul>
+                <li><a href="/book">Leave a Feedback</a></li>
+                <li><a href="/book">Reviews and Ratings</a></li>
+                <li><a href="/book">FAQs</a></li>
+                <li><a href="/book">Packages</a></li>
+              </ul>
+        </div>
+        <div class="box">
+             
+        </div>
+        <div class="clear"> </div>
+    </div>
+    <!---start-box---->
+</div>
+<!---start-copy-Right----->
+
+<!---End-copy-Right----->
+    </div>
+    <!---End-content----->
+</div>
+
+
+    
+  </body>
+</html>

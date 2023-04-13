@@ -1,0 +1,120 @@
+body { background-image: url("../images/back.jpg"); 
+    background-size: cover;
+overflow: hidden;
+} 
+
+.hero{
+
+height: 100%;
+width: 100%;
+background-position: center;
+background-size: cover;
+
+
+
+}
+.form-box{
+
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 12% auto;
+    background:#fff;
+    padding: 5px;
+    overflow: hidden;
+
+}
+
+.button-box{
+
+width: 220px;
+margin:35px auto;
+position: relative;
+box-shadow: 0 0 20px 9px #ff61241f;
+border-radius: 30px;
+
+}
+
+.toggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background:transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+
+#btn{
+
+    top:0;
+    left:0;
+    position:absolute;
+    width: 50%;
+    height: 100%;
+    background:linear-gradient(to right,#ff105f,#ffad06);
+    border-radius: 30px;
+    transition: .6s;
+
+}
+
+.input-grp{
+    margin-left: 45px;
+top:120px;
+position: absolute;
+width: 280px;
+transition: .6s;
+
+
+}
+.input-field{
+font-family:sans-serif;
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+border-bottom: 1px solid #999;
+outline: none;
+background:transparent;
+
+}
+
+#pass{
+    margin-top:30px;
+}
+
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin-top: 180px;
+    margin-left: 26px;
+    
+    background:linear-gradient(to right,#ff105f,#ffad06);
+    border-radius: 30px;
+    border: 0;
+    outline: none;
+}
+
+#register{
+    left: 450px;
+    
+}
+
+
+
+#submit2{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin-top:25px;
+    margin-left: 26px;
+    
+    background:linear-gradient(to right,#ff105f,#ffad06);
+    border-radius: 30px;
+    border: 0;
+    outline: none;
+}
